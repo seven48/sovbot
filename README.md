@@ -4,5 +4,8 @@
 
 #bot for meetings
 
-## commands:
+## frontend:
 # npm run build-fe
+
+## server
+# npm run serve
