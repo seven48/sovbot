@@ -1,0 +1,31 @@
+:host {
+  display: block;
+  margin: auto;
+}
+
+.call-btn {
+  background: red;
+  width: 400px;
+  height: 250px;
+  transition: 0.3s;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 3px solid black;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    background: darken(black, 10%);
+    border: 3px solid red;
+    color: red;
+  }
+
+  &:active {
+    background: rgba(black, 0.8);
+  }
+}
