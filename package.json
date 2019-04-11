@@ -1,0 +1,20 @@
+{
+  "name": "sovbot",
+  "version": "1.0.0",
+  "description": "<img width=\"200\" alt=\"portfolio_view\" src=\"https://previews.123rf.com/images/jpgon/jpgon1504/jpgon150400439/38546395-illustration-of-a-shield-icon-with-a-cigarette.jpg\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-fe": "cd frontend && ng build --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seven48/sovbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seven48/sovbot/issues"
+  },
+  "homepage": "https://github.com/seven48/sovbot#readme"
+}
