@@ -1,0 +1,37 @@
+{
+  "name": "sovbot-api",
+  "version": "0.0.1",
+  "description": "SovBot backend API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node ./src/bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seven48/sovbot.git"
+  },
+  "author": "seven48",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seven48/sovbot/issues"
+  },
+  "homepage": "https://github.com/seven48/sovbot#readme",
+  "dependencies": {
+    "express": "4.16.4",
+    "express-validator": "5.3.1",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "5.5.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "eslint": "5.16.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-node": "8.0.1",
+    "eslint-plugin-promise": "4.1.1",
+    "eslint-plugin-standard": "4.0.0",
+    "nodemon": "1.18.11"
+  }
+}
