@@ -1,0 +1,14 @@
+@mixin random-bgc(){
+  background: rgb(random(255), random(255), random(255));
+};
+
+@mixin run($name, $from, $to) {
+  @keyframes #{$name} {
+    0% {
+      transform: translateX($from);
+    }
+    100% {
+      transform: translateX($to);
+    }
+  }
+}
