@@ -11,6 +11,10 @@ function required (parameter) {
 export const MONGODB_HOST = required('MONGODB_HOST')
 export const JWT_SECRET = required('JWT_SECRET')
 
+// Optional
+export const REDIS_LINK = process.env.REDIS_LINK || 'redis://@127.0.0.1:26379'
+export const REDIS_PASSWORD = process.env.REDIS_PASSWORD || null
+
 /** Error types */
 export const ERRORS = {
   /** Wrong token */
