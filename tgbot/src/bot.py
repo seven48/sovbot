@@ -5,5 +5,5 @@ import telebot
 bot = telebot.TeleBot(os.environ.get('TGTOKEN'))
 
 telebot.apihelper.proxy = {
-    'https': os.environ.get('PROXY')
+    'https': 'https://simonsuprun:Z4k9GlC@146.120.110.18:65233'
 }
