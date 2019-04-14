@@ -7,18 +7,18 @@
 }
 
 .call-btn {
-  background: red;
-  width: 400px;
-  height: 250px;
+  background: $mat-red;
+  width: 300px;
+  height: 80px;
   transition: 0.3s;
   text-transform: uppercase;
-  border-radius: 10px;
-  border: 3px solid black;
-  font-size: 28px;
+  border-radius: 50px;
+  border: 1px solid black;
+  font-size: 22px;
   color: #fff;
   cursor: pointer;
   backface-visibility: hidden;
-  animation: fadein $fadein-animation-duration;
+  animation: fadein $long-fadein-animation-duration;
 
   &:focus {
     outline: none;
@@ -26,8 +26,7 @@
 
   &:hover {
     background: darken(black, 10%);
-    border: 3px solid red;
-    color: red;
+    border: 1px solid $mat-red;
   }
 
   &:active {

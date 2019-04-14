@@ -27,7 +27,7 @@ app.get('/api/call',(_, res) => {
 
 app.get('/api/room-settings',(_, res) => {
   res.json({
-    name: 'settings',
+    name: 'OOH group',
   })
 });
 
