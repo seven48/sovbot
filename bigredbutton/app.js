@@ -45,6 +45,14 @@ app.get('/api/members',(_, res) => {
       name: 'Vlad',
       photo: 'cover',
     },
+    {
+      name: 'Alina',
+      photo: 'cover',
+    },
+    {
+      name: 'Alex',
+      photo: 'cover',
+    },
   ])
 });
 
