@@ -24,5 +24,7 @@ export const ERRORS = {
   /** User is already exists */
   USER_EXISTS: 'USER_EXISTS',
   /** User is not found */
-  USER_IS_NOT_FOUND: 'USER_IS_NOT_FOUND'
+  USER_IS_NOT_FOUND: 'USER_IS_NOT_FOUND',
+  /** Object is already exists */
+  ALREADY_EXISTS: 'ALREADY_EXISTS'
 }
