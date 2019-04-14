@@ -13,6 +13,12 @@ export const JWT_SECRET = required('JWT_SECRET')
 
 /** Error types */
 export const ERRORS = {
+  /** Wrong token */
+  TOKEN_AUTH_FAILED: 'TOKEN_AUTH_FAILED',
+  /** Acess token is missing */
+  TOKEN_MISSING: 'TOKEN_MISSING',
+  /** Access token is expired */
+  TOKEN_EXPIRED: 'TOKEN_EXPIRED',
   /** One or more parameters are missing */
   MISSING_PARAM: 'MISSING_PARAM',
   /** User is already exists */
