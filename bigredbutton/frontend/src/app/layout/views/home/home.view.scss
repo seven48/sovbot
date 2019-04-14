@@ -1,0 +1,20 @@
+@import "variables";
+@import "animations";
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  position: relative;
+
+  &__item {
+    width: 100%;
+    position: absolute;
+    animation: fadein $fadein-animation-duration;
+  }
+
+  &__item_main {
+    backface-visibility: hidden;
+    animation: fadein $long-fadein-animation-duration;
+  }
+}
