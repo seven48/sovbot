@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  template: `<app-call-btn></app-call-btn>`,
+  templateUrl: './home.view.html',
+  styleUrls: ['./home.view.scss'],
 })
 export class HomeView {}
