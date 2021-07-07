@@ -19,6 +19,43 @@ app.get('/',(_, res) => {
   res.sendFile(path.join(__dirname+'/view/index.html'));
 });
 
+app.get('/api/call',(_, res) => {
+  res.json({
+    status: 'success',
+  })
+});
+
+app.get('/api/room-settings',(_, res) => {
+  res.json({
+    name: 'OOH group',
+  })
+});
+
+app.get('/api/members',(_, res) => {
+  res.json([
+    {
+      name: 'Daniel',
+      photo: 'cover',
+    },
+    {
+      name: 'Semion',
+      photo: 'cover',
+    },
+    {
+      name: 'Vlad',
+      photo: 'cover',
+    },
+    {
+      name: 'Alina',
+      photo: 'cover',
+    },
+    {
+      name: 'Alex',
+      photo: 'cover',
+    },
+  ])
+});
+
 app.listen(port, () => {
   console.log(`server listening port ${port}`);
 });

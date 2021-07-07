@@ -3,4 +3,16 @@
   <img class="logo__item logo__item_main" src="assets/images/home/cigarettes.svg" alt="">
 </div>
 
+<h3 class="room-title text-center mb-4 font-weight-light">
+  Soveschanie at room: <b class="font-weight-bold">{{ settings.name }}</b>
+</h3>
+
 <app-call-btn></app-call-btn>
+
+<div class="members">
+  <h4 class="text-center mt-4 mb-4">MEMBERS:</h4>
+
+  <ul style="display: flex; list-style-type: none">
+    <li *ngFor="let member of members" class="mr-2 text-muted">{{ member.name }}</li>
+  </ul>
+</div>

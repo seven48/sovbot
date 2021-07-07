@@ -11,4 +11,4 @@ if (env.production) {
 setTimeout(() => {
   platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
-}, env.production ? 1500 : 0);
+}, env.production ? 1300 : 0);

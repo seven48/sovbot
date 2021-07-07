@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-fe": "cd frontend && ng build --prod",
+    "build-fe": "cd frontend && ng build --prod --aot",
     "serve": "nodemon app.js"
   },
   "repository": {

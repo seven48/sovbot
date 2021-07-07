@@ -7,8 +7,10 @@ import {
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { ToastrModule } from 'ngx-toastr';
+
 @NgModule({
-  imports: [HttpClientModule],
+  imports: [HttpClientModule, ToastrModule.forRoot()],
   exports: [BrowserAnimationsModule, HttpClientModule],
 })
 export class CoreModule {
